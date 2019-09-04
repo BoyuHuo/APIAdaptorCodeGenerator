@@ -15,16 +15,8 @@ import lombok.Data;
  * Last modified on Aug 28, 2019
  * Last modified by none
  */
+
 @JsonInclude(JsonInclude.Include.NON_NULL)
-@JsonPropertyOrder({
-        "gs2_bucket",
-        "googledrive_bucket",
-        "access_token",
-        "token_type",
-        "refresh_token",
-        "expiry",
-        "user_token"
-})
 @Data
 @Builder
 public class ${bean_name}Bean {
